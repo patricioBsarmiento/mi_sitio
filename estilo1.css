@@ -1,0 +1,151 @@
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+
+
+.body-1 {
+    background-color: azure;
+}
+.body-2 {
+    background-color:azure;
+}
+.body-3 {
+    background-color: azure;
+}
+
+
+
+.contenedor {
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large ;
+    
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-left: -50px;
+    width: 90%;
+    
+}
+
+.inicio {
+        background-color: rgb(159, 209, 159);
+        padding-left: 5px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 57px;
+        float: left;
+        position: relative;
+        width: 5%;
+        border: 2px solid rgb(106, 168, 106);
+        height: auto;
+        border-radius: 1em;
+    
+    
+}
+
+.local {
+    background-color: rgb(159, 209, 159);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+    position: relative;
+    float: left;
+    width: 7%;
+    border: 2px solid rgb(106, 168, 106);
+    height: auto;
+    border-radius: 5em;
+    
+}
+
+.lista-plantas {
+    background-color: rgb(159, 209, 159);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:5px;
+    padding-left: 5px;
+    margin-left: 30px;
+    position: relative;
+    float: left;
+    width: 7%;
+    border: 2px solid rgb(106, 168, 106);
+    height: auto;
+    width: auto;
+    border-radius: 5em;
+}
+
+img {
+    width: 1500px;
+    height: 550px;
+    margin: auto;
+  
+}
+h3 {
+   margin: auto;
+   margin-top: 15px;
+   margin-right: 100px;
+   padding-left: 45%;
+   font-size: 2em;
+   font-family: 'Dancing Script', cursive;
+
+   
+}
+
+.h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 15mm ;
+    margin: 20px;
+    padding-left: 0px;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    color:rgb(159, 209, 159);
+}
+
+.contacto {
+    background-color: rgb(159, 209, 159);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+    position: relative;
+    float: left;
+    width: 7%;
+    border: 2px solid rgb(106, 168, 106);
+    height: auto;
+    border-radius: 5em;
+}
+
+.ubicacion {
+    float: right;
+}
+
+.form {
+    display: block;
+
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    color: green ;
+    font-size: x-large;
+}
+
+
+.links {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+}
+
+footer {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    background-color: rgb(171, 248, 248)
+
+}
+
+.foot {
+    margin: auto;
+}
