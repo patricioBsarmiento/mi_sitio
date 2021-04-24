@@ -78,6 +78,7 @@ a:link, a:visited, a:active {
 
 img {
     width: 50%;
+    border-radius: 5%;
    
 }
  .img-lista-plantas {
