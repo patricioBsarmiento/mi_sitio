@@ -5,16 +5,11 @@ a:link, a:visited, a:active {
 
 
 
-.body-1 {
-    background-color: azure;
-}
-.body-2 {
-    background-color:azure;
-}
-.body-3 {
-    background-color: azure;
-}
 
+.body {
+    padding: 3%;
+    background-color: azure;
+}
 
 
 .contenedor {
@@ -60,6 +55,11 @@ a:link, a:visited, a:active {
     
 }
 
+.img-local {
+    width: 50%;
+}
+
+
 .lista-plantas {
     background-color: rgb(159, 209, 159);
     padding-top: 5px;
@@ -77,9 +77,8 @@ a:link, a:visited, a:active {
 }
 
 img {
-    width: 1500px;
-    height: 550px;
-    margin: auto;
+    width: 50%;
+   
 }
  .img-lista-plantas {
      width: 500px;
@@ -147,19 +146,18 @@ p {
 }
 
 footer {
-    margin-top: 80px;
-    margin-bottom: 10px;
-    background-color: rgb(171, 248, 248)
+    
 
 }
 
 .foot {
-    margin: auto;
+   
 }
 
 .cont  {
     width: 500px;
     border: 2px solid grey;
+    border-radius: 0.5em;
 }
 
 .cont img {
@@ -167,6 +165,7 @@ footer {
     float: left;
     width: 250px;
     margin-right: 15px;
+    padding-left: 3px;
     
 }
 
