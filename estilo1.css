@@ -27,7 +27,7 @@ a:link, a:visited, a:active {
 .inicio {
         background-color: rgb(159, 209, 159);
         padding-left: 5px;
-        padding-right: 15px;
+        padding-right: 5px;
         padding-top: 5px;
         padding-bottom: 5px;
         margin-left: 57px;
@@ -45,6 +45,8 @@ a:link, a:visited, a:active {
     background-color: rgb(159, 209, 159);
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: -3px;
+    padding-right: -3px;
     margin-left: 15px;
     position: relative;
     float: left;
@@ -134,9 +136,9 @@ h3 {
 }
 
 p {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
     color: green ;
-    font-size: x-large;
+    font-size: large;
 }
 
 
