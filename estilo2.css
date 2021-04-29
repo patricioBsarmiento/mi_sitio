@@ -28,7 +28,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 20px;
-    background-color: #1B262C;
+    background-color: #215235;
     height: 30px;
     color: white;
     text-align: center;
@@ -160,4 +160,38 @@ p {
 
 .p-nosotros {
     text-align: left;
+}
+
+form {
+    background-color: #1B262C;
+    padding: 30px;
+    width: 47%;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    resize: none;
+}
+
+.label-radio {
+    display: inline-block;
+}
+
+label {
+    color: #CCCCCC;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+iframe {
+    width: 45%;
+    display: inline-block;
+    margin-right: 2%;
 }
