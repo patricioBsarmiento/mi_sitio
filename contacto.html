@@ -7,37 +7,37 @@
     <link rel="stylesheet" href="estilo2.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/1e120a7be1.js" crossorigin="anonymous"></script>
+    <script defer src="borrador.js"></script>
     <title>Contáctenos</title>
 </head>
 <body>
 
-    <header>
-        <h3>Vivero Sunny</h3>
-        <div class="contenedor">
-
-            <nav>
-                <div class="inicio">
-                    <a href="index.html">Inicio</a>
-                </div>
-                <div class="lista-plantas">
-                    <a href="lista_plantas.html" >Lista de Plantas</a>
-                </div>
-                <div class="local">
-                    <a href="local.html" >Local</a>
-                </div>
-                <div class="contacto">
-                    <a href="contacto.html" >Contacto</a>
-                </div>
-            </nav>
+    <header class="header">
+            <nav class="nav">
+                <a href="" class="logo nav-link">Vivero Sunny</a>
+                <button class="nav-toggle" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>         <!--ESTO ES EL BOTON PARA EL MENU HAMBURGUESA-->
+                </button>
+                <ul class="nav-menu nav-menu_visible ">
+                    <li class="nav-menu-item nav-link">
+                        <a href="index.html" class="nav-menu-link nav-link">Inicio</a></li>
+                    <li class="nav-menu-item">
+                        <a href="lista_plantas.html" class="nav-menu-link nav-link">Plantas</a></li>
+                    <li class="nav-menu-item">
+                        <a href="local.html" class="nav-menu-link nav-link">Local</a></li>
+                    <li class="nav-menu-item">
+                        <a href="contacto.html" class="nav-menu-link nav-link nav-menu-link_active">Contacto</a></li>
+                </ul>
         </div>
     </header>
 
-    <main>
+    <main  >
         <h2 class="h2">Contacto</h2>
         <hr>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52683.09723566287!2d-58.77819144979965!3d-34.3837130121951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9f8d5a842409%3A0x2378e6e29238429!2sMercado%20de%20Maschwitz!5e0!3m2!1sen!2sar!4v1618360478666!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <form action="15.1- show_data.html">
+        <div class="grid-container">
+            
+            <form class="form" action="15.1- show_data.html">
                 <label> Nombre y Apellido:
                     <input type="text" name="Nombre_Apellido" placeholder="Ingrese su nombre y apellido" required>
                 </label>
@@ -65,6 +65,7 @@
 
                 <input type="submit" value="Enviar">
             </form>
+            <iframe class="enlace" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52683.09723566287!2d-58.77819144979965!3d-34.3837130121951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9f8d5a842409%3A0x2378e6e29238429!2sMercado%20de%20Maschwitz!5e0!3m2!1sen!2sar!4v1618360478666!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </main>
 
