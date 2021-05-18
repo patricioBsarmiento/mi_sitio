@@ -1,0 +1,178 @@
+body {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    /* padding: 90px 20px 0; */
+    font-family: 'Dancing Script', cursive;
+    min-height: 100%;
+}
+
+.header  {
+    background: #2c3e50 !important;
+    height: 80px !important;
+    
+}
+
+.nav {
+    background-color: #2c3e50;
+    
+}
+
+
+.titulo {
+    font-size: 15mm ;
+    color:rgb(159, 209, 159);
+}
+
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/******************** BARRA DE NAVEGACION FLEX RESPONSIVE *******************/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 992px; /*numero especial seleccionado*/
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px; /*El logo queda centrado, le ponemos 80px como la altura del header*/
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 30px;
+    list-style: none; /*Se eliminan los puntitos de la lista*/
+
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0px 10px 15px 10px;
+    line-height: 80px;
+    width: max-content; /*Le decimos que no nos corte el contenido*/
+    
+}
+
+.nav-menu-link {
+    padding-top:  ;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+    background-color: rgb(37, 37, 134) ;
+    transition: .5s;
+
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px; /*el tamaño igual que el Logo*/
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+
+    display: none; /*No queremos que se ve en dispo. de escritorio*/
+
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding-top: 70px;
+    }
+    
+    .header {
+  
+        height: 60px;
+    }
+
+    .logo {
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color: #2c3e50;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left .3s;
+    }
+    
+    .nav-menu-item {
+        line-height: 70px;
+       
+    }
+    
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: #83c5f7;
+    
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu_visible {  /*Para que este visible el menu de navegación*/
+        left: 0;       
+    }
+}
+
+/* Footer */
+.page-footer {
+    background-color: #03380194;
+}
+
+.footer-copyright {
+    background-color: #101010 !important;
+}
+
+.img-redes {
+    width: 36px;
+    height: 36px;
+}
+
+.white-text {
+    font-size: 22px;
+}
+
+.p-plantas {
+    font-size: 20px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
