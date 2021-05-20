@@ -69,6 +69,10 @@ header {
     border-radius: 3px;
 }
 
+#link-inicio {
+    padding: 1px;
+}
+
 .nav-menu-link:hover {
     background-color: rgb(37, 37, 134) ;
     transition: .5s;
@@ -131,7 +135,8 @@ header {
         line-height: 70px;
        
     }
-    
+
+      
     .nav-menu-link:hover,
     .nav-menu-link_active {
         background: none;
@@ -160,6 +165,7 @@ header {
     border-radius: 5.5em;
     margin-top: 5%;
     margin-left: 20px;
+    
 }
 
 .main-local {
@@ -464,7 +470,7 @@ footer {
   
     .grid-container {
 
-        background-image: linear-gradient(135deg, #f7d6b5 0%, #f0b88a 100%);
+        background-image: linear-gradient(135deg, #dbf3cd 0%, #c6ccc3 100%);
         
         grid-template-areas: 
             "form form form"
@@ -498,7 +504,25 @@ body {
 }
 
 
+.rounded {
+    margin-top: 150px;
+}
 
+h4 {
+    text-align: center;
+    margin: 10px;
+    font-style: oblique;
+    font-family: 'KoHo', sans-serif;
+}
 
+.carousel-inner {
+    margin: 170px;
+}
 
+.leyenda  {
+    text-shadow: .2px .7px .7px #2c3e50;
+}
 
+.leyenda p {
+    vertical-align: middle ;
+}

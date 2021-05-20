@@ -8,8 +8,8 @@ body {
 }
 
 .header  {
-    background: #2c3e50 !important;
-    height: 80px !important;
+    background: #2c3e50 ;
+    height: 80px ;
     
 }
 
@@ -75,7 +75,6 @@ body {
 }
 
 .nav-menu-link {
-    padding-top:  ;
     border-radius: 3px;
 }
 
@@ -179,5 +178,11 @@ body {
 }
 
 h4 {
+    
     font-style: oblique;
+    font-family: 'KoHo', sans-serif;
+    font-size: large;
+    color: rgb(28, 131, 28);
+    font-weight: bolder;
+    
 }
