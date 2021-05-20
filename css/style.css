@@ -22,6 +22,7 @@ body {
 .titulo {
     font-size: 15mm ;
     color:rgb(159, 209, 159);
+    font-weight: bold;
 }
 
 .galeria img {
@@ -175,4 +176,8 @@ body {
     font-size: 20px;
     color: #C7C7C7;
     margin-top: 20px;
+}
+
+h4 {
+    font-style: oblique;
 }
