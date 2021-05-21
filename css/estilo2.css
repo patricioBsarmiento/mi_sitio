@@ -93,7 +93,7 @@ header {
 }
 
 
-/* CORTE PARA CELULAR */
+/****************** CORTE PARA CELULAR **********************/
 
 @media (max-width: 600px) {
     body {
@@ -128,7 +128,7 @@ header {
         overflow-y: auto;
 
         left: 100%;
-        transition: left .3s;
+        transition: left .5s;
     }
     
     .nav-menu-item {
@@ -167,6 +167,8 @@ header {
     margin-left: 20px;
     
 }
+
+/* ************** ENMAQUETADO CON GRID ***************** */
 
 .main-local {
     display: grid;
@@ -266,12 +268,6 @@ h3 {
 }
 
 
-
-/* .p-nosotros {
-    display: block;
-    text-align: left;
-} */
-
 form {
     background-color: #6e8592e0;
     padding: 30px;
@@ -301,14 +297,11 @@ iframe {
 }
 
 
-.links {       /*links del footer*/
+.links {       /**************links del footer****************/
     width: 50%;
     text-align: left;
     display: inline-block;
 }
-
-
-
 
 .grid-container > * {
         box-shadow: -1px 1px 7px 0px rgb(3, 78, 41);
@@ -321,6 +314,7 @@ iframe {
 .form {
     grid-area: form;
     width: auto;
+    font-size: x-large;
     }
 .enlace {
     grid-area: enlace;
@@ -455,7 +449,7 @@ footer {
     }
 }
 
-
+/* ************************* ENMAQUETADO CON GRID AREAS **************************** */
 
 .grid-container {
     display: grid;
